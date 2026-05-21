@@ -48,9 +48,6 @@ b 노트북에서는 가끔 로딩이 느려서 5초를 잡아먹는 경우가 �
 `hash_tag = input("해시태그 입력 >> ")` 해당 코드를 사용해 해시 태그를 입력하면             
 해당 해시태그를 입력한 사람들을 대상으로 코드를 실행했다.   
 
-더 자세한 내용 > [log 보기](https://github.com/haedal-project/python/blob/main/instagram/README.md#log)
-
-
 <br>
 
 #### 1차 수정 : 좋아요 코드에서 추가
