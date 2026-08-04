@@ -77,6 +77,14 @@ button.sqdOP.yWX7d.y3zKF → div.bY2yH > button.sqdOP.yWX7d
 ## 주요 기능
 - 특정 상품의 가격을 주기적으로 크롤링하여 원하는 가격대 상품을 Line 메신저로 자동 알림
 
+#### 구성
+- BeautifulSoup으로 상품 가격 크롤링
+- 작업 스케줄러로 지정한 시간에 자동 실행
+- Line API를 학습해 가격 변동 알림 전송. 원하는 가격대 상품이 있을 때만 알림
+
+#### 문제
+- Selenium 사용 시 Access Denied가 발생해 BeautifulSoup으로 전환
+
 ## 구현 과정
 
 ### 1. 전체 페이지 반복 크롤링
